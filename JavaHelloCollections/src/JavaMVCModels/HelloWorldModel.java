@@ -1,9 +1,3 @@
-/*
- * model class
- * purpose:
- * 1. allow the user to load the data from a data source, such as a file.
- * 2. allow the user to update the data in the file.
- */
 package JavaMVCModels;
 
 import java.io.*;
@@ -11,9 +5,13 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 /**
- *
+ * model class
+ * purpose:
+ * 1. allow the user to load the data from a data source, such as a file.
+ * 2. allow the user to update the data in the file.
  * @author m
  */
+ 
 public class HelloWorldModel {
     
     // Method to extract the data from the file.
